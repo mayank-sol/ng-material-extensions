@@ -1,7 +1,7 @@
 import { AfterViewInit, Directive, Host, Optional, Self } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTable, MatTableDataSource } from '@angular/material/table';
-import { CdkTableExporter, DataExtractorService, ServiceLocatorService } from 'projects/cdk-table-exporter/src/public-api';
+import { CdkTableExporter, DataExtractorService, ServiceLocatorService } from '../../../../projects/cdk-table-exporter/src/public-api';
 import { Observable } from 'rxjs';
 
 @Directive({
