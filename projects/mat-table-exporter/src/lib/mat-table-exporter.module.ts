@@ -15,7 +15,6 @@ export interface ModuleConfiguration {
   ],
   exports: [MatTableExporterDirective]
 })
-
 export class MatTableExporterModule {
   static forRoot(configuration: ModuleConfiguration): ModuleWithProviders<MatTableExporterModule> {
     return {
